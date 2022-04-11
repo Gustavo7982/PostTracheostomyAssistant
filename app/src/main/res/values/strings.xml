@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Post Tracheostomy Assistant</string>
+    <string name="button_talk">Hablar</string>
+    <string name="hint_message">Escribe lo que quieres decir</string>
+    <string name="text_init_status">Verificado OK !</string>
+    <string name="tts_active">Listo OK !</string>
+    <string name="tts_no_active">Dispositivo inhabilitado para voz</string>
+
+</resources>
