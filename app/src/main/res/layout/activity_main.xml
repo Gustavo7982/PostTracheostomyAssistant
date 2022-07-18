@@ -5,17 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/primaryTextColor"
     tools:context=".MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilAssistant"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:importantForAutofill="no"
-        android:inputType="text"
         app:endIconMode="clear_text"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="#0D47A1"
+        android:minHeight="48dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,9 +28,9 @@
             android:id="@+id/etMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
             android:hint="@string/hint_message"
-            android:autofillHints="no"
-            android:inputType="text"/>
+            android:autofillHints="no" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
